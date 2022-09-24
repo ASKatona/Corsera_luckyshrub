@@ -1,0 +1,231 @@
+/* 
+nav = #845EF2
+Banner = #6589E6
+light blue = #62B7FC
+white = #F2F2F2
+*/
+body {
+    background-color: #185751;
+    margin: 0;
+    padding: 0 15px;
+}
+
+nav {
+    background-color: #74D4CC;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 10px auto 0 0;
+    border: 2px solid #26877F;
+   
+}
+
+.logobox {
+    float: left;
+}
+
+.logobox a {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;
+    padding: 3px;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #74D4CC;
+    border-radius: 15px;
+    
+    
+}
+
+nav li {
+    float: right;
+    border-left: 2px solid #26877F;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 14px 18px;
+    color: #26877F;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: #5DA19B;
+    color: #74D4CC;
+}
+
+header {
+    background-image: url("img/banner_shrub.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: block;
+    padding: 0 15px;
+    border: 2px solid #26877F;
+}
+
+header > h1 {
+    margin: 0;
+    padding: 100px 0 0 0;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 0 0 5px #000;
+}
+
+header > h2 {
+    margin: 0;
+    padding: 0 0 100px 0;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #000;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    border: 2px solid #26877F;
+    background-color: #74D4CC;
+    color: #fff;
+    padding: 0 25px 25px 25px;
+    border-radius: 15px;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1.5em;
+}
+
+.box h2 {
+    font-size: 2em;
+    text-shadow: 0 0 5px #000;
+}
+
+.box3 {
+    border: 2px solid #26877F;
+    background-image: url("img/pot_plants.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    text-shadow: 0 0 5px #000;
+
+}
+
+.green-box {
+    background-color: #26877F;
+    border: 2px solid #74D4CC;
+}
+
+.green-box p {
+    margin-bottom: -12px;
+    margin-right: -10px;
+}
+
+
+.imgcontainer {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+    margin: 0 10px 0 2px;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .imgcontainer:hover .overlay {
+    opacity: 1;
+  }
+
+.image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #26877F;
+}
+
+
+.image2 {
+    display: block;
+
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #26877F;
+}
+
+.footer {
+    background-color: #74D4CC;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto 10px 0;
+    border: 2px solid #26877F;
+    height: 50px;
+}
+
+.footer p {
+    color: #26877F;
+    float: right;
+    padding-right: 20px;
+}
+
+
+
+@media(max-width:768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box3 > h2 {
+        text-align: center;
+    }
+
+    .box > h2 {
+        text-align: center;
+    }
+
+    header > h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    header > h2 {
+        text-align: center;
+        font-size: 1em;
+    }
+
+}
